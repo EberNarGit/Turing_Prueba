@@ -1,0 +1,17 @@
+:root{
+    --background-color: #FAFAFA;
+    --blue-light:#4977FD;
+    --blue-black: #0E1035;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* InformationHeader */
+.header-info {
+    
+}

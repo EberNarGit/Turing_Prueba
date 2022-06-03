@@ -6,6 +6,8 @@
 }
 
 nav{
+    position: fixed;
+    top: 0;
     display: flex;
     background-color: var(--background-color);
     width: 100%;

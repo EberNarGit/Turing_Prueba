@@ -14,28 +14,82 @@
     
 </head>
 <body>
-    <nav>
-        <picture class="logo">
-            <a href="./index.html"><img src="./image/logo.png" alt="Turing Logo"></a> 
-        </picture>
-        <ul class="nav-links">
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./html/nosotros.html">Nosotros</a></li>
-            <li><a href="./html/servicios.html">Servicios</a></li>
-            <li><a href="./html/tableau.html">Tableau</a></li>
-            <li><a href="./html/desarrollo_sw.html">Desarrollo de software</a></li>
-            <li><a href="./html/blog.html">Blog</a></li>
-            <li><a href="./html/contacto.html">Contacto</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav>
+    <!-- Header -->
     <header>
-        <p></p>
+        <nav>
+            <picture class="logo">
+                <a href="./index.html"><img src="./image/logo.png" alt="Turing Logo"></a> 
+            </picture>
+            <ul class="nav-links">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./html/nosotros.html">Nosotros</a></li>
+                <li><a href="./html/servicios.html">Servicios</a></li>
+                <li><a href="./html/tableau.html">Tableau</a></li>
+                <li><a href="./html/desarrollo_sw.html">Desarrollo de software</a></li>
+                <li><a href="./html/blog.html">Blog</a></li>
+                <li><a href="./html/contacto.html">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="header--title-container">
+            <h1 class="header--title-blue">Turing</h1><h1>lnteligencia <br>Artificial</h1>
+            <p>Contribuimos con su empresa para mejorar la toma de decisiones a través de sus datos</p>
+            <a href="./html/nosotros.html" class="header--button">Conocenos</a>
+        </div>
     </header>
+    <!--End Header -->
+
+    <!-- Main -->
+    <main>
+        <section class="main-info-container">
+            <div class="main-info-container--title">
+                <h3>Conócenos</h3>
+                <p>Somos una empresa Consultora de Big Data en México. Desde hace 13 años proporcionamos: Servicios en Business Analytics mediante Knowledge Discovery in Database (KDD). Nos gustaría trabajar contigo en tu siguiente proyecto</p>
+                <h2>La manera <strong>ideal</strong> de manejar tus datos</h2>
+            </div>
+            <div class="backgroundIMG"></div>
+        </section>
+
+        <section class="main-about-container">
+            <h2>Contáctanos</h2>
+            <article class="about-ubicacion--card">
+                <span class="card-icon"><i class="fa-solid fa-map-location-dot"></i></span>
+                <p class="ubicacion-card--title">Ubicación</p>
+                <p class="ubicacion-card--description">Av. Insurgentes Sur 601, Nápoles, Benito Juárez, 03810 Ciudad de México, CDMX</p>
+            </article>
+            <article class="about-ubicacion--card">
+                <span class="card-icon"><i class="fa-solid fa-envelope"></i></span>
+                <p class="ubicacion-card--title">Email</p>
+                <p class="ubicacion-card--description">contacto@turing-ia.com</p>
+            </article>
+            <article class="about-ubicacion--card">
+                <span class="card-icon"><i class="fa-solid fa-phone"></i></span>
+                <p class="ubicacion-card--title">Llamanos</p>
+                <p class="ubicacion-card--description">+52 (722) 533-6638</p>
+            </article>
+        </section>
+
+        <section class="main-contact-container">
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7526.572370048176!2d-99.171316!3d19.400037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8908d745e6168858!2sTuring%20-%20Inteligencia%20Artificial!5e0!3m2!1ses-419!2smx!4v1654380686809!5m2!1ses-419!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="main-form-container">
+                <form class='contacto'>
+                    <div><span class="contacto--icon"><i class="fa-solid fa-user"></i></span><input type='text' value='Nombre completo*'></div>
+                    <div><span class="contacto--icon"><i class="fa-solid fa-envelope-open"></i></span><input type='text' value='Correo electronico*'></div>
+                    <div><span class="contacto--icon"><i class="fa-solid fa-phone-flip"></i></span><input type='text' value='Telefono*'></div>
+                    <div><span class="contacto--icon"><i class="fa-solid fa-building"></i></span><input type='text' value='Empresa*'></div>
+                    <div class="message"><i class="fa-solid fa-building"></i><input type='text' value='Mensaje'></div>
+                    <div><input type='submit' value='Envia Mensaje'></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- End Main -->
 
     <footer class="footer">
         <section class="footer--info">
@@ -66,7 +120,7 @@
                 <a href="https://www.instagram.com/ia_turing/" TARGET=”_blank”><i class="fa-brands fa-instagram-square"></i></a>
                 <a href="https://mx.linkedin.com/company/turing-inteligencia-artificial?original_referer=https%3A%2F%2Fturing-ia.com%2F" TARGET=”_blank”><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            
+        
         </section>
 
         <section class="footer--copyright">
